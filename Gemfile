@@ -15,6 +15,8 @@ gem 'devise'
 gem 'annotate'
 gem 'simple_form'
 gem 'bootstrap-wysihtml5-rails', github: 'nerian/bootstrap-wysihtml5-rails'
+gem 'friendly_id', '~> 5.1.0' 
+gem 'date_validator'
 
 group :development, :test do
   gem 'byebug'
